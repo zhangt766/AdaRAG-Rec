@@ -37,3 +37,16 @@ Test AdaRAG-Rec with a single A100 GPU on the MovieLens dataset:
 ```bash
 sh scripts/test_movielens.sh
 ```
+## Project Structure
+
+```text
+AdaRAG-Rec/
+├── scripts/              # Training and evaluation scripts
+│   ├── train_movielens.sh
+│   └── test_movielens.sh
+├── data/                 # Dataset processing and loading
+├── models/               # Retriever and generator (LLM) modules
+├── trainer/              # Training and optimization logic
+├── utils/                # Utility functions
+├── main.py               # Main entry point
+└── requirements.tx
