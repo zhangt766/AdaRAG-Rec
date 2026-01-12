@@ -1,10 +1,10 @@
-# AdaRAG-Rec
-Adaptive Retrieval-Augmented Generation for LLM-based Sequential Recommendation.
+This repository provides an **anonymous research implementation** of **AdaRAG-Rec**, a novel adaptive Retrieval-Augmented Generation (RAG) framework for LLM-based sequential recommendation.
 
-This repository provides an anonymous research implementation of **AdaRAG-Rec**, an adaptive RAG framework for sequential recommendation that:
-- replaces fixed top-k retrieval with a **learnable threshold-based retriever** (adaptive retrieval size),
-- makes retrieval **differentiable via smooth relaxation**,
-- enables **end-to-end joint training** of retriever and generator.
+AdaRAG-Rec addresses a key limitation of existing RAG-based recommenders: **the retrieval size is fixed and non-differentiable**. Instead, our framework enables:
+
+- 🔁 **Adaptive retrieval size** via a **learnable threshold-based retriever**
+- 🧮 **Differentiable retrieval** through **smooth relaxation**
+- 🔗 **End-to-end joint training** of the retriever and generator
 
 ## Preparation
 
